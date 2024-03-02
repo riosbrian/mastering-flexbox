@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flextours &mdash; Your all-in-one booking page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="center-app">
+      <div class="container">
+        <header class="header">
+          <!-- <img src="img/logo.png" alt="trillo logo" class="logo" /> -->
+          <h1 class="logo">FlexTours</h1>
+          <form action="" class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search tours"
+            />
+            <button class="search__btn">
+              <svg class="search__icon">
+                <use href="img/sprite.svg#icon-magnifying-glass"></use>
+              </svg>
+            </button>
+          </form>
+          <nav class="user-nav">
+            <div class="user-nav__icon-box">
+              <svg class="user-nav__icon">
+                <use href="img/sprite.svg#icon-bookmark"></use>
+              </svg>
+              <span class="user-nav__notification">7</span>
+            </div>
+            <div class="user-nav__icon-box">
+              <svg class="user-nav__icon">
+                <use href="img/sprite.svg#icon-chat"></use>
+              </svg>
+              <span class="user-nav__notification">12</span>
+            </div>
+            <div class="user-nav__user">
+              <img
+                src="img/user-1.jpg"
+                alt="user photo"
+                class="user-nav__user-photo"
+              />
+              <span class="user-nav__username">Brian</span>
+            </div>
+          </nav>
+        </header>
+        <div class="content">
+          <nav class="sidebar">
+            <ul class="side-nav">
+              <li class="side-nav__item side-nav__item--active">
+                <a href="#" class="side-nav__link">
+                  <svg class="side-nav__icon">
+                    <use href="img/sprite.svg#icon-home"></use>
+                  </svg>
+                  <span>Hotel</span>
+                </a>
+              </li>
+              <li class="side-nav__item">
+                <a href="#" class="side-nav__link">
+                  <svg class="side-nav__icon">
+                    <use href="img/sprite.svg#icon-aircraft-take-off"></use>
+                  </svg>
+                  <span>Flight</span>
+                </a>
+              </li>
+              <li class="side-nav__item">
+                <a href="#" class="side-nav__link">
+                  <svg class="side-nav__icon">
+                    <use href="img/sprite.svg#icon-key"></use>
+                  </svg>
+                  <span>Car rental</span>
+                </a>
+              </li>
+              <li class="side-nav__item">
+                <a href="#" class="side-nav__link">
+                  <svg class="side-nav__icon">
+                    <use href="img/sprite.svg#icon-map"></use>
+                  </svg>
+                  <span>Tours</span>
+                </a>
+              </li>
+            </ul>
+            <div class="legal">&copy; Code by Brian Rios.</div>
+          </nav>
+          <main class="hotel-view">
+            <div class="gallery">
+              <figure class="gallery__item">
+                <img
+                  src="img/hotel-1.jpg"
+                  alt="photo of hotel 1"
+                  class="gallery__photo"
+                />
+              </figure>
+              <figure class="gallery__item">
+                <img
+                  src="img/hotel-2.jpg"
+                  alt="photo of hotel 2"
+                  class="gallery__photo"
+                />
+              </figure>
+              <figure class="gallery__item">
+                <img
+                  src="img/hotel-3.jpg"
+                  alt="photo of hotel 3"
+                  class="gallery__photo"
+                />
+              </figure>
+            </div>
+            <div class="overview">
+              <h2 class="overview__heading">Discover Granada</h2>
+              <div class="overview__stars">
+                <svg class="overview__icon-star">
+                  <use href="img/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use href="img/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use href="img/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use href="img/sprite.svg#icon-star"></use>
+                </svg>
+                <svg class="overview__icon-star">
+                  <use href="img/sprite.svg#icon-star"></use>
+                </svg>
+              </div>
+              <div class="overview__location">
+                <svg class="overview__icon-location">
+                  <use href="img/sprite.svg#icon-location-pin"></use>
+                </svg>
+                <button class="btn btn--inline">Andalucía | Spain</button>
+              </div>
+              <div class="overview__rating">
+                <p class="overview__rating-average">9.2</p>
+                <p class="overview__rating-votes">425 votes</p>
+              </div>
+            </div>
+            <div class="detail">
+              <div class="description">
+                <p class="paragraph">
+                  Granada, nestled in the heart of Andalusia, Spain, is a city
+                  of captivating beauty and rich cultural heritage. Its crown
+                  jewel, the Alhambra Palace, stands as a testament to its
+                  Moorish past, while its vibrant streets, delicious cuisine,
+                  and flamenco rhythms enchant visitors from around the world.
+                </p>
+                <p class="paragraph">
+                  Granada, with its picturesque Albaicín quarter and Sierra
+                  Nevada backdrop, offers a perfect blend of history, nature,
+                  and vibrant culture.
+                </p>
+                <ul class="list">
+                  <li class="list__item">Alhambra Palace</li>
+                  <li class="list__item">Generalife Gardens</li>
+                  <li class="list__item">Sacromonte</li>
+                  <li class="list__item">Albayzín</li>
+                  <li class="list__item">Cathedral of Granada</li>
+                  <li class="list__item">San Nicolás Viewpoint</li>
+                  <li class="list__item">Tapas Culture</li>
+                  <li class="list__item">Sierra Nevada</li>
+                </ul>
+                <div class="recommend">
+                  <p class="recommend__count">425 users recommends this city</p>
+                  <div class="recommend__users">
+                    <img
+                      class="recommend__photo"
+                      src="img/user-3.jpg"
+                      alt="user img 1"
+                    />
+                    <img
+                      class="recommend__photo"
+                      src="img/user-4.jpg"
+                      alt="user img 2"
+                    />
+                    <img
+                      class="recommend__photo"
+                      src="img/user-5.jpg"
+                      alt="user img 3"
+                    />
+                    <img
+                      class="recommend__photo"
+                      src="img/user-6.jpg"
+                      alt="user img 4"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="user-reviews">
+                <figure class="review">
+                  <blockquote class="review__text">
+                    Granada is a dream come true, every corner exudes history
+                    and beauty.
+                  </blockquote>
+                  <figcaption class="review__user">
+                    <img
+                      src="img/user-1.jpg"
+                      alt="review user photo 1"
+                      class="review__photo"
+                    />
+                    <div class="review__user-box">
+                      <p class="review__username">Brian Rios</p>
+                      <p class="review__user-date">Feb 23, 2017</p>
+                    </div>
+                    <span class="review__rating">7.9</span>
+                  </figcaption>
+                </figure>
+                <figure class="review">
+                  <blockquote class="review__text">
+                    Incredible city, the Alhambra is breathtaking and the
+                    atmosphere is magical.
+                  </blockquote>
+                  <figcaption class="review__user">
+                    <img
+                      src="img/user-1.jpg"
+                      alt="review user photo 1"
+                      class="review__photo"
+                    />
+                    <div class="review__user-box">
+                      <p class="review__username">Brian Rios</p>
+                      <p class="review__user-date">Feb 23, 2017</p>
+                    </div>
+                    <span class="review__rating">7.9</span>
+                  </figcaption>
+                </figure>
+                <button class="btn btn--inline">
+                  Show all <span>&rarr;</span>
+                </button>
+              </div>
+            </div>
+            <div class="cta">
+              <div class="cta__book-now">
+                Book your adventure and experience its enchanting culture
+                firsthand.
+              </div>
+              <button class="btn btn--cta">
+                <span class="btn--cta__visible">Discover Granada</span>
+                <span class="btn--cta__invisible">Book now</span>
+              </button>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
